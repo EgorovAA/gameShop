@@ -1,0 +1,79 @@
+#maket {
+    background-color: #715ffc;
+    width: 1024px;
+    height: 768px;
+    margin: auto;
+}
+
+#shop {
+    float: left;
+    background-color: #ffc084;
+    width: 350px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+
+#heroWindow {
+    float: right;
+    background-color: #ffc084;
+    width: 350px;
+    height: 550px;
+    margin-top: 100px;
+    margin-right: 70px;
+    border-radius: 10px;
+}
+
+#shop-name {
+    margin-left: 90px;
+    left: 0;
+    margin-top: 80px;
+}
+
+#formId {
+    margin-left: 90px;
+}
+
+.helmet {
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 5px;
+}
+
+.boots {
+    position: absolute;
+    margin-left: 100px;;
+    margin-top: 260px;
+}
+
+.hero-img {
+
+    margin-left: 100px;
+}
+
+.chest {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+.gloves {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 165px;
+}
+
+.sword {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 200px;
+}
+#nameHero {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.container{
+        margin-left: 120px;
+}
