@@ -15,56 +15,40 @@
 <div id="maket" class="container">
     <div id="shop">
         <h1 id="shop-name">SHOP</h1>
-        <div class="form-group" id="formId"> Helmet
-            <form class="input-group flex-nowrap" name="helmets">
-                <select name="helmetForm">
 
-                    <option value="1">gray helmet</option>
-                    <option value="2" selected>green helmet</option>
-                    <option value="3">purple helmet</option>
-                </select>
-                <button id="showWeapon1" class="btn btn-info">add weapon</button>
-            </form>
+        <div class="input-group flex-nowrap" id="formId">
+            <form data-id="from">
+                <select  data-id=system class="input-group flex-nowrap">
+                </select></form>
+            <button id="showWeapon1" class="btn btn-info">add weapon</button>
         </div>
-        <div class="form-group" id="formId">Chest
-            <form name="ChestForm" action="" class="input-group flex-nowrap">
-                <select name="ChestForm">
-                    <option value="1">gray chest</option>
-                    <option value="2" selected>green chest</option>
-                    <option value="3">purple chest</option>
-                </select>
-                <button id="showWeapon2" class="btn btn-info">add weapon</button>
-            </form>
+
+        <div class="input-group flex-nowrap" id="formId">
+            <form data-id="from">
+                <select name="ChestForm" data-id=chest class="input-group flex-nowrap">
+                </select></form>
+            <button id="showWeapon2" class="btn btn-info">add weapon</button>
         </div>
-        <div class="form-group" id="formId">Gloves
-            <form name="helmetForm" action="" class="input-group flex-nowrap">
-                <select name="helmetForm">
-                    <option value="1">gray gloves</option>
-                    <option value="2" selected>green gloves</option>
-                    <option value="3">purple gloves</option>
-                </select>
-                <button id="showWeapon3" class="btn btn-info">add weapon</button>
-            </form>
+
+        <div class="input-group flex-nowrap" id="formId">
+            <form data-id="from">
+                <select name="glovesForm" data-id=gloves>
+                </select></form>
+            <button id="showWeapon4" class="btn btn-info">add weapon</button>
         </div>
-        <div class="form-group" id="formId">Boots
-            <form name="helmetForm" action="" class="input-group flex-nowrap">
-                <select name="helmetForm">
-                    <option value="1">gray boots</option>
-                    <option value="2" selected>green boots</option>
-                    <option value="3">purple boots</option>
-                </select>
-                <button id="showWeapon4" class="btn btn-info">add weapon</button>
-            </form>
+
+        <div class="input-group flex-nowrap" id="formId">
+            <form data-id="from">
+            <select name="bootsForm" data-id=boots>
+            </select></form>
+            <button id="showWeapon3" class="btn btn-info">add weapon</button>
         </div>
-        <div class="form-group" id="formId">Sword
-            <form name="helmetForm" action="" class="input-group flex-nowrap">
-                <select name="helmetForm">
-                    <option value="1">gray sword</option>
-                    <option value="2" selected>green sword</option>
-                    <option value="3">purple sword</option>
-                </select>
-                <button id="showWeapon5" class="btn btn-info">add weapon</button>
-            </form>
+
+        <div class="input-group flex-nowrap" id="formId">
+            <form data-id="from">
+                <select name="helmetForm" data-id="swords">
+                </select></form>
+            <button id="showWeapon5" class="btn btn-info">add weapon</button>
         </div>
 
     </div>
@@ -87,15 +71,8 @@
         <div class="container"> Armor <span id="helth">10</span></div>
         <div class="container"> Attack <span id="helth">25</span></div>
 
-    </div >
-
-<div class="row no-gutters goods"><!-- END все элементы -->
-</div>
-<div class="person"> </div>
-
-</div>
-
-
-<script src="app.js" type="module"></script>
+    </div>
+    <p data-id=result></p>
+    <script src="app.js" type="module"></script>
 </body>
 </html>
